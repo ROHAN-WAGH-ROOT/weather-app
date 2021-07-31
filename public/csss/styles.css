@@ -1,0 +1,50 @@
+body {
+	color: rgb(0, 0, 0);
+	font-family: 'Courier New', Courier, monospace;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	font-size: larger;
+}
+.main-content{
+	flex-grow: 1;
+
+	}
+header {
+	background: rgb(255, 255, 255);
+	padding: 20px;
+	text-align: center;
+	border-bottom: 2px solid rgb(255, 255, 255);
+}
+footer {
+	background: rgb(255, 255, 255);
+	padding: 20px;
+	text-align: center;
+	border-top: 0.5px solid rgb(190, 187, 187);
+}
+img {
+	height: 400px;
+	width: 500px;
+	margin-left: 35%;
+}
+header a{
+	color:grey;
+	text-decoration: none;
+}
+div{
+	text-align: center;
+
+}
+input{
+	width: 250px;
+	height: 13px;
+	padding: 15px;
+}
+button{
+	cursor: pointer;
+	border:1px solid #fff;
+	background:#888888;
+	color:white;
+	height: 50px;
+	width: 80px;
+}
