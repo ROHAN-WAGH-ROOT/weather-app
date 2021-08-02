@@ -15,8 +15,8 @@ const forecast = (latitude, longitude, callback) => {
 		} else {
 			callback(
 				undefined,
-				' it is currently ' + body.current.temperature + ' but feels like ' + body.current.feelslike
-			);
+				' it is currently ' + body.current.temperature + ' C but feels like ' + body.current.feelslike
+			+'C');
 		}
 	});
 };
